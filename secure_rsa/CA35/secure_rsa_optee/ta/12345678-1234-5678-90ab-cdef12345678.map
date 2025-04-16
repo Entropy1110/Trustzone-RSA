@@ -2539,76 +2539,76 @@ LOAD linker stubs
  .debug_str     0x000000000001db99     0x5be5 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(consttime_memcmp.o)
 
 .debug_line_str
-                0x0000000000000000     0x1549
+                0x0000000000000000     0x1538
  .debug_line_str
-                0x0000000000000000     0x1549 ./ta_rsa_encrypt.o
-                                        0x3aa (size before relaxing)
+                0x0000000000000000     0x1538 ./ta_rsa_encrypt.o
+                                        0x388 (size before relaxing)
  .debug_line_str
-                0x0000000000001549      0x4af ./user_ta_header.o
+                0x0000000000001538      0x48d ./user_ta_header.o
  .debug_line_str
-                0x0000000000001549      0x31c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(stack_check.o)
+                0x0000000000001538      0x31c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(stack_check.o)
  .debug_line_str
-                0x0000000000001549      0x314 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(trace.o)
+                0x0000000000001538      0x314 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(trace.o)
  .debug_line_str
-                0x0000000000001549      0x263 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memcpy.o)
+                0x0000000000001538      0x263 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memcpy.o)
  .debug_line_str
-                0x0000000000001549      0x2e8 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(snprintk.o)
+                0x0000000000001538      0x2e8 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(snprintk.o)
  .debug_line_str
-                0x0000000000001549      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memchr.o)
+                0x0000000000001538      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memchr.o)
  .debug_line_str
-                0x0000000000001549      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(strlen.o)
+                0x0000000000001538      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(strlen.o)
  .debug_line_str
-                0x0000000000001549      0x391 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(trace_ext.o)
+                0x0000000000001538      0x391 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(trace_ext.o)
  .debug_line_str
-                0x0000000000001549      0x3ef /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_objects.o)
+                0x0000000000001538      0x3ef /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_objects.o)
  .debug_line_str
-                0x0000000000001549      0x47b /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_operations.o)
+                0x0000000000001538      0x47b /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_operations.o)
  .debug_line_str
-                0x0000000000001549      0x3c6 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_panic.o)
+                0x0000000000001538      0x3c6 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_panic.o)
  .debug_line_str
-                0x0000000000001549      0x4ad /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(user_ta_entry.o)
+                0x0000000000001538      0x4ad /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(user_ta_entry.o)
  .debug_line_str
-                0x0000000000001549       0xe4 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
+                0x0000000000001538       0xe4 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(utee_syscalls_a64.o)
  .debug_line_str
-                0x0000000000001549      0x372 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(abort.o)
+                0x0000000000001538      0x372 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(abort.o)
  .debug_line_str
-                0x0000000000001549      0x371 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(assert.o)
+                0x0000000000001538      0x371 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(assert.o)
  .debug_line_str
-                0x0000000000001549      0x44a /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api.o)
+                0x0000000000001538      0x44a /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api.o)
  .debug_line_str
-                0x0000000000001549      0x52f /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
+                0x0000000000001538      0x52f /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_arith_mpi.o)
  .debug_line_str
-                0x0000000000001549      0x4c6 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_property.o)
+                0x0000000000001538      0x4c6 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_api_property.o)
  .debug_line_str
-                0x0000000000001549      0x3f7 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_system_pta.o)
+                0x0000000000001538      0x3f7 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tee_system_pta.o)
  .debug_line_str
-                0x0000000000001549      0x3d8 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tcb.o)
+                0x0000000000001538      0x3d8 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(tcb.o)
  .debug_line_str
-                0x0000000000001549      0x206 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(base64.o)
+                0x0000000000001538      0x206 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutee.a(base64.o)
  .debug_line_str
-                0x0000000000001549      0x52e /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(bignum.o)
+                0x0000000000001538      0x52e /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(bignum.o)
  .debug_line_str
-                0x0000000000001549      0x52c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(bignum_core.o)
+                0x0000000000001538      0x52c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(bignum_core.o)
  .debug_line_str
-                0x0000000000001549      0x54a /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(constant_time.o)
+                0x0000000000001538      0x54a /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(constant_time.o)
  .debug_line_str
-                0x0000000000001549      0x4fd /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(platform_util.o)
+                0x0000000000001538      0x4fd /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libmbedtls.a(platform_util.o)
  .debug_line_str
-                0x0000000000001549      0x3eb /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(bget_malloc.o)
+                0x0000000000001538      0x3eb /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(bget_malloc.o)
  .debug_line_str
-                0x0000000000001549      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(snprintf.o)
+                0x0000000000001538      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(snprintf.o)
  .debug_line_str
-                0x0000000000001549      0x26f /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memmove.o)
+                0x0000000000001538      0x26f /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memmove.o)
  .debug_line_str
-                0x0000000000001549      0x263 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memset.o)
+                0x0000000000001538      0x263 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(memset.o)
  .debug_line_str
-                0x0000000000001549      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(strcmp.o)
+                0x0000000000001538      0x26c /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(strcmp.o)
  .debug_line_str
-                0x0000000000001549      0x2d8 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(strlcpy.o)
+                0x0000000000001538      0x2d8 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(strlcpy.o)
  .debug_line_str
-                0x0000000000001549      0x3a0 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(mempool.o)
+                0x0000000000001538      0x3a0 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(mempool.o)
  .debug_line_str
-                0x0000000000001549      0x2c0 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(consttime_memcmp.o)
+                0x0000000000001538      0x2c0 /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/lib/libutils.a(consttime_memcmp.o)
 
 .comment        0x0000000000000000       0x12
  .comment       0x0000000000000000       0x12 ./ta_rsa_encrypt.o

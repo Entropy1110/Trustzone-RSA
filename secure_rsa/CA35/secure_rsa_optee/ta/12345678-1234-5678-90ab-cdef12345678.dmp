@@ -76,9 +76,9 @@ Idx Name          Size      VMA               LMA               File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  21 .debug_str    0001db99  0000000000000000  0000000000000000  000877d4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 00001549  0000000000000000  0000000000000000  000a536d  2**0
+ 22 .debug_line_str 00001538  0000000000000000  0000000000000000  000a536d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .comment      00000012  0000000000000000  0000000000000000  000a68b6  2**0
+ 23 .comment      00000012  0000000000000000  0000000000000000  000a68a5  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 0000000000000000 l    d  .text	0000000000000000 .text
@@ -821,7 +821,7 @@ memcpy():
 
 00000000000000d8 <generate_rsa_keypair>:
 generate_rsa_keypair():
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:31
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:31
       d8:	d10103ff 	sub	sp, sp, #0x40
       dc:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
       e0:	a9017bfd 	stp	x29, x30, [sp, #16]
@@ -832,12 +832,12 @@ generate_rsa_keypair():
       f4:	f9400001 	ldr	x1, [x0]
       f8:	f90007e1 	str	x1, [sp, #8]
       fc:	d2800001 	mov	x1, #0x0                   	// #0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:35
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:35
      100:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
      104:	9118e016 	add	x22, x0, #0x638
      108:	f9431c00 	ldr	x0, [x0, #1592]
      10c:	b5000240 	cbnz	x0, 154 <generate_rsa_keypair+0x7c>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:39
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:39
      110:	f00000b5 	adrp	x21, 17000 <__text_end+0x39f8>
      114:	912ba2b5 	add	x21, x21, #0xae8
      118:	52800023 	mov	w3, #0x1                   	// #1
@@ -847,9 +847,9 @@ generate_rsa_keypair():
      128:	d2800162 	mov	x2, #0xb                   	// #11
      12c:	900000d4 	adrp	x20, 18000 <gcd_pairs+0x53c>
      130:	94000a25 	bl	29c4 <TEE_OpenPersistentObject>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:43
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:43
      134:	35000220 	cbnz	w0, 178 <generate_rsa_keypair+0xa0>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:44
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:44
      138:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      13c:	912bd280 	add	x0, x20, #0xaf4
      140:	912bd084 	add	x4, x4, #0xaf4
@@ -857,9 +857,9 @@ generate_rsa_keypair():
      148:	52800042 	mov	w2, #0x2                   	// #2
      14c:	52800581 	mov	w1, #0x2c                  	// #44
      150:	940001c0 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:36
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:36
      154:	52800013 	mov	w19, #0x0                   	// #0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:78
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:78
      158:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
      15c:	f9409800 	ldr	x0, [x0, #304]
      160:	f94007e2 	ldr	x2, [sp, #8]
@@ -868,7 +868,7 @@ generate_rsa_keypair():
      16c:	d2800001 	mov	x1, #0x0                   	// #0
      170:	540008c0 	b.eq	288 <generate_rsa_keypair+0x1b0>  // b.none
      174:	94000117 	bl	5d0 <__stack_chk_fail>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:48
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:48
      178:	912bd294 	add	x20, x20, #0xaf4
      17c:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      180:	912c7084 	add	x4, x4, #0xb1c
@@ -877,19 +877,19 @@ generate_rsa_keypair():
      18c:	52800042 	mov	w2, #0x2                   	// #2
      190:	52800601 	mov	w1, #0x30                  	// #48
      194:	940001af 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:50
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:50
      198:	52800600 	mov	w0, #0x30                  	// #48
      19c:	910003e2 	mov	x2, sp
      1a0:	52810001 	mov	w1, #0x800                 	// #2048
      1a4:	72b42000 	movk	w0, #0xa100, lsl #16
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:49
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:49
      1a8:	f90003ff 	str	xzr, [sp]
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:50
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:50
      1ac:	94000809 	bl	21d0 <TEE_AllocateTransientObject>
      1b0:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:51
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:51
      1b4:	34000140 	cbz	w0, 1dc <generate_rsa_keypair+0x104>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:52
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:52
      1b8:	2a0003e5 	mov	w5, w0
      1bc:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      1c0:	aa1403e0 	mov	x0, x20
@@ -898,33 +898,33 @@ generate_rsa_keypair():
      1cc:	52800022 	mov	w2, #0x1                   	// #1
      1d0:	52800681 	mov	w1, #0x34                  	// #52
      1d4:	9400019f 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:53
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:53
      1d8:	17ffffe0 	b	158 <generate_rsa_keypair+0x80>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:56
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:56
      1dc:	f94003e0 	ldr	x0, [sp]
      1e0:	52800003 	mov	w3, #0x0                   	// #0
      1e4:	d2800002 	mov	x2, #0x0                   	// #0
      1e8:	52810001 	mov	w1, #0x800                 	// #2048
      1ec:	9400098a 	bl	2814 <TEE_GenerateKey>
      1f0:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:57
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:57
      1f4:	34000180 	cbz	w0, 224 <generate_rsa_keypair+0x14c>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:58
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:58
      1f8:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      1fc:	2a0003e5 	mov	w5, w0
      200:	912d8c84 	add	x4, x4, #0xb63
      204:	52800023 	mov	w3, #0x1                   	// #1
      208:	52800022 	mov	w2, #0x1                   	// #1
      20c:	52800741 	mov	w1, #0x3a                  	// #58
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:71
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:71
      210:	aa1403e0 	mov	x0, x20
      214:	9400018f 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:72
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:72
      218:	f94003e0 	ldr	x0, [sp]
      21c:	940007f4 	bl	21ec <TEE_FreeTransientObject>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:73
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:73
      220:	17ffffce 	b	158 <generate_rsa_keypair+0x80>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:64
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:64
      224:	f94003e4 	ldr	x4, [sp]
      228:	aa1603e7 	mov	x7, x22
      22c:	aa1503e1 	mov	x1, x21
@@ -935,9 +935,9 @@ generate_rsa_keypair():
      240:	52800020 	mov	w0, #0x1                   	// #1
      244:	94000a21 	bl	2ac8 <TEE_CreatePersistentObject>
      248:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:70
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:70
      24c:	34000100 	cbz	w0, 26c <generate_rsa_keypair+0x194>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:71
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:71
      250:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      254:	2a0003e5 	mov	w5, w0
      258:	912e0084 	add	x4, x4, #0xb80
@@ -945,7 +945,7 @@ generate_rsa_keypair():
      260:	52800022 	mov	w2, #0x1                   	// #1
      264:	528008e1 	mov	w1, #0x47                  	// #71
      268:	17ffffea 	b	210 <generate_rsa_keypair+0x138>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:76
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:76
      26c:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      270:	aa1403e0 	mov	x0, x20
      274:	912ea084 	add	x4, x4, #0xba8
@@ -953,7 +953,7 @@ generate_rsa_keypair():
      27c:	52800042 	mov	w2, #0x2                   	// #2
      280:	52800981 	mov	w1, #0x4c                  	// #76
      284:	17ffffb3 	b	150 <generate_rsa_keypair+0x78>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:78
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:78
      288:	a9417bfd 	ldp	x29, x30, [sp, #16]
      28c:	2a1303e0 	mov	w0, w19
      290:	a94253f3 	ldp	x19, x20, [sp, #32]
@@ -963,71 +963,71 @@ generate_rsa_keypair():
 
 00000000000002a0 <TA_CreateEntryPoint>:
 TA_CreateEntryPoint():
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:13
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:13
      2a0:	52800000 	mov	w0, #0x0                   	// #0
      2a4:	d65f03c0 	ret
 
 00000000000002a8 <TA_DestroyEntryPoint>:
 TA_DestroyEntryPoint():
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:16
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:16
      2a8:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
      2ac:	f9431c00 	ldr	x0, [x0, #1592]
      2b0:	b4000040 	cbz	x0, 2b8 <TA_DestroyEntryPoint+0x10>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:17
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:17
      2b4:	1400078e 	b	20ec <TEE_CloseObject>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:18
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:18
      2b8:	d65f03c0 	ret
 
 00000000000002bc <TA_OpenSessionEntryPoint>:
 TA_OpenSessionEntryPoint():
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:25
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:25
      2bc:	52800000 	mov	w0, #0x0                   	// #0
      2c0:	d65f03c0 	ret
 
 00000000000002c4 <TA_CloseSessionEntryPoint>:
 TA_CloseSessionEntryPoint():
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:29
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:29
      2c4:	d65f03c0 	ret
 
 00000000000002c8 <TA_InvokeCommandEntryPoint>:
 TA_InvokeCommandEntryPoint():
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:83
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:83
      2c8:	d10183ff 	sub	sp, sp, #0x60
      2cc:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:86
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:86
      2d0:	2a0103e5 	mov	w5, w1
      2d4:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      2d8:	912f2884 	add	x4, x4, #0xbca
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:83
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:83
      2dc:	a9027bfd 	stp	x29, x30, [sp, #32]
      2e0:	910083fd 	add	x29, sp, #0x20
      2e4:	f9409800 	ldr	x0, [x0, #304]
      2e8:	a90353f3 	stp	x19, x20, [sp, #48]
      2ec:	2a0103f4 	mov	w20, w1
      2f0:	a9045bf5 	stp	x21, x22, [sp, #64]
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:86
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:86
      2f4:	900000d5 	adrp	x21, 18000 <gcd_pairs+0x53c>
      2f8:	912bd2b5 	add	x21, x21, #0xaf4
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:83
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:83
      2fc:	f9002bf7 	str	x23, [sp, #80]
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:86
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:86
      300:	910056b5 	add	x21, x21, #0x15
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:83
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:83
      304:	2a0203f3 	mov	w19, w2
      308:	aa0303f6 	mov	x22, x3
      30c:	f9400001 	ldr	x1, [x0]
      310:	f9000fe1 	str	x1, [sp, #24]
      314:	d2800001 	mov	x1, #0x0                   	// #0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:86
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:86
      318:	52800023 	mov	w3, #0x1                   	// #1
      31c:	aa1503e0 	mov	x0, x21
      320:	52800042 	mov	w2, #0x2                   	// #2
      324:	52800ac1 	mov	w1, #0x56                  	// #86
      328:	9400014a 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:88
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:88
      32c:	7100069f 	cmp	w20, #0x1
      330:	54000ce1 	b.ne	4cc <TA_InvokeCommandEntryPoint+0x204>  // b.any
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:89
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:89
      334:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      338:	2a1403e3 	mov	w3, w20
      33c:	912fc884 	add	x4, x4, #0xbf2
@@ -1035,40 +1035,40 @@ TA_InvokeCommandEntryPoint():
      344:	52800042 	mov	w2, #0x2                   	// #2
      348:	52800b21 	mov	w1, #0x59                  	// #89
      34c:	94000141 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:91
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:91
      350:	7101967f 	cmp	w19, #0x65
      354:	54000160 	b.eq	380 <TA_InvokeCommandEntryPoint+0xb8>  // b.none
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:96
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:96
      358:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      35c:	2a1303e5 	mov	w5, w19
      360:	91302c84 	add	x4, x4, #0xc0b
      364:	2a1403e3 	mov	w3, w20
      368:	2a1403e2 	mov	w2, w20
      36c:	52800c01 	mov	w1, #0x60                  	// #96
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:144
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:144
      370:	aa1503e0 	mov	x0, x21
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:145
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:145
      374:	129fff33 	mov	w19, #0xffff0006            	// #-65530
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:144
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:144
      378:	94000136 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:145
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:145
      37c:	1400000c 	b	3ac <TA_InvokeCommandEntryPoint+0xe4>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:100
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:100
      380:	97ffff56 	bl	d8 <generate_rsa_keypair>
      384:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:101
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:101
      388:	34000220 	cbz	w0, 3cc <TA_InvokeCommandEntryPoint+0x104>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:102
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:102
      38c:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      390:	2a0003e5 	mov	w5, w0
      394:	9130c484 	add	x4, x4, #0xc31
      398:	2a1403e3 	mov	w3, w20
      39c:	2a1403e2 	mov	w2, w20
      3a0:	52800cc1 	mov	w1, #0x66                  	// #102
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:109
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:109
      3a4:	aa1503e0 	mov	x0, x21
      3a8:	9400012a 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:174
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:174
      3ac:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
      3b0:	f9409800 	ldr	x0, [x0, #304]
      3b4:	f9400fe2 	ldr	x2, [sp, #24]
@@ -1077,7 +1077,7 @@ TA_InvokeCommandEntryPoint():
      3c0:	d2800001 	mov	x1, #0x0                   	// #0
      3c4:	54000ea0 	b.eq	598 <TA_InvokeCommandEntryPoint+0x2d0>  // b.none
      3c8:	94000082 	bl	5d0 <__stack_chk_fail>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:107
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:107
      3cc:	52802601 	mov	w1, #0x130                 	// #304
      3d0:	2a1403e2 	mov	w2, w20
      3d4:	910023e0 	add	x0, sp, #0x8
@@ -1085,9 +1085,9 @@ TA_InvokeCommandEntryPoint():
      3dc:	72ac0001 	movk	w1, #0x6000, lsl #16
      3e0:	94000e04 	bl	3bf0 <TEE_AllocateOperation>
      3e4:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:108
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:108
      3e8:	34000100 	cbz	w0, 408 <TA_InvokeCommandEntryPoint+0x140>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:109
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:109
      3ec:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      3f0:	2a0003e5 	mov	w5, w0
      3f4:	91314c84 	add	x4, x4, #0xc53
@@ -1095,15 +1095,15 @@ TA_InvokeCommandEntryPoint():
      3fc:	2a1403e2 	mov	w2, w20
      400:	52800da1 	mov	w1, #0x6d                  	// #109
      404:	17ffffe8 	b	3a4 <TA_InvokeCommandEntryPoint+0xdc>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:113
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:113
      408:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
      40c:	f9431c01 	ldr	x1, [x0, #1592]
      410:	f94007e0 	ldr	x0, [sp, #8]
      414:	9400117e 	bl	4a0c <TEE_SetOperationKey>
      418:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:114
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:114
      41c:	34000180 	cbz	w0, 44c <TA_InvokeCommandEntryPoint+0x184>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:115
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:115
      420:	2a0003e5 	mov	w5, w0
      424:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      428:	2a1403e3 	mov	w3, w20
@@ -1112,18 +1112,18 @@ TA_InvokeCommandEntryPoint():
      434:	aa1503e0 	mov	x0, x21
      438:	52800e61 	mov	w1, #0x73                  	// #115
      43c:	94000105 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:172
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:172
      440:	f94007e0 	ldr	x0, [sp, #8]
      444:	94000ddb 	bl	3bb0 <TEE_FreeOperation>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:173
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:173
      448:	17ffffd9 	b	3ac <TA_InvokeCommandEntryPoint+0xe4>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:121
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:121
      44c:	a94012c3 	ldp	x3, x4, [x22]
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:120
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:120
      450:	910042d7 	add	x23, x22, #0x10
      454:	f94006e0 	ldr	x0, [x23, #8]
      458:	f9000be0 	str	x0, [sp, #16]
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:121
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:121
      45c:	f94007e0 	ldr	x0, [sp, #8]
      460:	910043e6 	add	x6, sp, #0x10
      464:	f9400ac5 	ldr	x5, [x22, #16]
@@ -1131,9 +1131,9 @@ TA_InvokeCommandEntryPoint():
      46c:	d2800001 	mov	x1, #0x0                   	// #0
      470:	940018f4 	bl	6840 <TEE_AsymmetricDecrypt>
      474:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:124
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:124
      478:	34000180 	cbz	w0, 4a8 <TA_InvokeCommandEntryPoint+0x1e0>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:125
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:125
      47c:	2a0003e5 	mov	w5, w0
      480:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      484:	2a1403e3 	mov	w3, w20
@@ -1142,12 +1142,12 @@ TA_InvokeCommandEntryPoint():
      490:	aa1503e0 	mov	x0, x21
      494:	52800fa1 	mov	w1, #0x7d                  	// #125
      498:	940000ee 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:130
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:130
      49c:	f9400be0 	ldr	x0, [sp, #16]
      4a0:	f90006e0 	str	x0, [x23, #8]
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:131
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:131
      4a4:	17ffffe7 	b	440 <TA_InvokeCommandEntryPoint+0x178>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:127
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:127
      4a8:	f9400be5 	ldr	x5, [sp, #16]
      4ac:	2a1403e3 	mov	w3, w20
      4b0:	aa1503e0 	mov	x0, x21
@@ -1157,9 +1157,9 @@ TA_InvokeCommandEntryPoint():
      4c0:	52800fe1 	mov	w1, #0x7f                  	// #127
      4c4:	940000e3 	bl	850 <trace_printf>
      4c8:	17fffff5 	b	49c <TA_InvokeCommandEntryPoint+0x1d4>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:135
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:135
      4cc:	34000174 	cbz	w20, 4f8 <TA_InvokeCommandEntryPoint+0x230>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:136
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:136
      4d0:	2a1403e5 	mov	w5, w20
      4d4:	aa1503e0 	mov	x0, x21
      4d8:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
@@ -1167,16 +1167,16 @@ TA_InvokeCommandEntryPoint():
      4e0:	91338884 	add	x4, x4, #0xce2
      4e4:	52800022 	mov	w2, #0x1                   	// #1
      4e8:	52801101 	mov	w1, #0x88                  	// #136
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:137
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:137
      4ec:	129ffeb3 	mov	w19, #0xffff000a            	// #-65526
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:136
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:136
      4f0:	940000d8 	bl	850 <trace_printf>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:137
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:137
      4f4:	17ffffae 	b	3ac <TA_InvokeCommandEntryPoint+0xe4>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:140
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:140
      4f8:	7101967f 	cmp	w19, #0x65
      4fc:	54000100 	b.eq	51c <TA_InvokeCommandEntryPoint+0x254>  // b.none
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:144
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:144
      500:	f00000a4 	adrp	x4, 17000 <__text_end+0x39f8>
      504:	2a1303e5 	mov	w5, w19
      508:	9133f484 	add	x4, x4, #0xcfd
@@ -1184,12 +1184,12 @@ TA_InvokeCommandEntryPoint():
      510:	52800022 	mov	w2, #0x1                   	// #1
      514:	52801201 	mov	w1, #0x90                  	// #144
      518:	17ffff96 	b	370 <TA_InvokeCommandEntryPoint+0xa8>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:148
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:148
      51c:	97fffeef 	bl	d8 <generate_rsa_keypair>
      520:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:149
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:149
      524:	35fff440 	cbnz	w0, 3ac <TA_InvokeCommandEntryPoint+0xe4>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:154
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:154
      528:	52802601 	mov	w1, #0x130                 	// #304
      52c:	910023e0 	add	x0, sp, #0x8
      530:	52810003 	mov	w3, #0x800                 	// #2048
@@ -1197,37 +1197,37 @@ TA_InvokeCommandEntryPoint():
      538:	72ac0001 	movk	w1, #0x6000, lsl #16
      53c:	94000dad 	bl	3bf0 <TEE_AllocateOperation>
      540:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:155
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:155
      544:	35fff340 	cbnz	w0, 3ac <TA_InvokeCommandEntryPoint+0xe4>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:159
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:159
      548:	d00000c0 	adrp	x0, 1a000 <_DYNAMIC>
      54c:	f9431c01 	ldr	x1, [x0, #1592]
      550:	f94007e0 	ldr	x0, [sp, #8]
      554:	9400112e 	bl	4a0c <TEE_SetOperationKey>
      558:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:160
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:160
      55c:	35fff720 	cbnz	w0, 440 <TA_InvokeCommandEntryPoint+0x178>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:166
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:166
      560:	a94012c3 	ldp	x3, x4, [x22]
      564:	910043e6 	add	x6, sp, #0x10
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:165
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:165
      568:	f9400ec0 	ldr	x0, [x22, #24]
      56c:	f9000be0 	str	x0, [sp, #16]
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:166
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:166
      570:	f94007e0 	ldr	x0, [sp, #8]
      574:	52800002 	mov	w2, #0x0                   	// #0
      578:	f9400ac5 	ldr	x5, [x22, #16]
      57c:	d2800001 	mov	x1, #0x0                   	// #0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:165
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:165
      580:	910042d4 	add	x20, x22, #0x10
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:166
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:166
      584:	940017ed 	bl	6538 <TEE_AsymmetricEncrypt>
      588:	2a0003f3 	mov	w19, w0
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:171
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:171
      58c:	f9400be0 	ldr	x0, [sp, #16]
      590:	f9000680 	str	x0, [x20, #8]
      594:	17ffffab 	b	440 <TA_InvokeCommandEntryPoint+0x178>
-/root/STM32CubeIDE/workspace_1.18.1/tf_secure_inference/CA35/ta_tf_speech/ta/ta_rsa_encrypt.c:174
+/root/git/Trustzone-RSA/secure_rsa/CA35/secure_rsa_optee/ta/ta_rsa_encrypt.c:174
      598:	a9427bfd 	ldp	x29, x30, [sp, #32]
      59c:	2a1303e0 	mov	w0, w19
      5a0:	a94353f3 	ldp	x19, x20, [sp, #48]
