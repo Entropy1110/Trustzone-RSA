@@ -1,0 +1,29 @@
+user_ta_header.o: \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/src/user_ta_header.c \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/compiler.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/config.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/malloc.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/pta_stats.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/stdint.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/limits.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/tee_api_types.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/inttypes.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/x86_64-ostl_sdk-linux/usr/lib/aarch64-ostl-linux/gcc/aarch64-ostl-linux/13.3.0/include/stdbool.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/x86_64-ostl_sdk-linux/usr/lib/aarch64-ostl-linux/gcc/aarch64-ostl-linux/13.3.0/include/stddef.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/tee_api_defines.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/types_ext.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/unistd.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/tee_ta_api.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/tee_internal_api.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/trace.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/x86_64-ostl_sdk-linux/usr/lib/aarch64-ostl-linux/gcc/aarch64-ostl-linux/13.3.0/include/stdarg.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/trace_levels.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/tee_api_compat.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/tee_internal_api_extensions.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/stdio.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/tee_api_defines_extensions.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/user_ta_header.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/util.h \
+ user_ta_header_defines.h include/ta_rsa_encrypt.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/utee_syscalls.h \
+ /opt/st/stm32mp2/5.0.3-openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06/sysroots/cortexa35-ostl-linux/usr/include/optee/export-user_ta_arm64/include/utee_types.h
